@@ -2,9 +2,9 @@
 
 ## ✅ Checklist
 - [ ] **DDS mipmap data mismatch** (`gfx_dds_loader.cpp:325`) — textures likely truncated/cis-exported
-- [ ] **Missing GUI element** (`containerwindow.cpp:1020`) — `frame_btn` not found in `naval_combat_mapicon`
-- [ ] **Undefined GUI_TYPE** (`gui.cpp:931`) — `naval_headquarter_mapicon` missing (warning says this will likely crash)
-- [ ] **Failed to create window type** (`gui.cpp:409`) — cannot create `naval_headquarter_mapicon` container window type
+- [x] **Missing GUI element** (`containerwindow.cpp:1020`) — `frame_btn` not found in `naval_combat_mapicon`
+- [x] **Undefined GUI_TYPE** (`gui.cpp:931`) — `naval_headquarter_mapicon` missing (warning says this will likely crash)
+- [x] **Failed to create window type** (`gui.cpp:409`) — cannot create `naval_headquarter_mapicon` container window type
 
 ---
 
@@ -74,7 +74,7 @@
 **Location reference:** `interface/mapicons.gui (line 1065)`  
 
 **Files / definitions implicated:**
-- [ ] `interface/mapicons.gui (line 1065)`
+- [x] `interface/mapicons.gui (line 1065)`
 
 **Original full message (canonical):**
 - `[07:27:12][1936.01.01.12][containerwindow.cpp:1020]: interface/mapicons.gui (line 1065 ): Could not find "frame_btn" in window naval_combat_mapicon`
@@ -85,7 +85,7 @@
 **Type:** `gui.cpp:931`  
 
 **GUI type implicated:**
-- [ ] `naval_headquarter_mapicon`
+- [x] `naval_headquarter_mapicon`
 
 **Original full message (canonical):**
 - `[07:27:12][1936.01.01.12][gui.cpp:931]: Undefined GUI_TYPE: naval_headquarter_mapicon - This will most likely crash the game`
@@ -96,7 +96,7 @@
 **Type:** `gui.cpp:409`  
 
 **GUI type implicated:**
-- [ ] `naval_headquarter_mapicon`
+- [x] `naval_headquarter_mapicon`
 
 **Original full message (canonical):**
 - `[07:27:12][1936.01.01.12][gui.cpp:409]: Error: Failed to create containerWindowType "naval_headquarter_mapicon".`

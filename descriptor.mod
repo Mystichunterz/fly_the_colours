@@ -1,6 +1,7 @@
-version="1.0.13"
+version="1.1.0"
 tags={
 	"Graphics"
+	"Optimization"
 }
 dependencies={
 	"The Road to 56"

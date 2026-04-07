@@ -2,8 +2,8 @@
 
 **RBM’s GFX Overhaul** is a comprehensive graphical overhaul for *Hearts of Iron IV*, restoring, modernizing, and extending classic MPU-style assets — with the goal of improving readability, accessibility, and visual clarity across the UI and map.
 
-> ⚠️ **Gameplay unchanged** – purely visual edits.
-> ✅ Intended to be achievement-compatible in vanilla checksum contexts.
+> ⚠️ **Gameplay unchanged** – purely visual edits,
+> ❌ Not achievement-compatible (due to graphical overrides).
 
 ---
 
@@ -24,7 +24,6 @@
 ## 🔧 Technical Notes
 
 - **Purely graphical** – no gameplay, balance, or mechanical changes
-- **Achievement-safe target** – no gameplay define overrides included
 - Fully functional in multiplayer games
 - Compatible with the current HOI4 version (see Steam Workshop page for details)
 - Best tested directly inside the HOI4 mod folder for instant in-game updates

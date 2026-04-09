@@ -408,6 +408,8 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_sh_battleship_icon_medium_white"  textureFile = "gfx/interface/counters/ships_small/onmap_sh_battleship.dds" }
 	spriteType = { name = "GFX_unit_submarine_icon_medium_white"      textureFile = "gfx/interface/counters/ships_small/onmap_submarine.dds" }
 	spriteType = { name = "GFX_unit_transport_icon_medium_white"      textureFile = "gfx/interface/counters/ships_small/onmap_transport.dds" }
+	spriteType = { name = "GFX_unit_support_ship_icon_medium_white"   textureFile = "gfx/interface/counters/ships_small/onmap_general_support_ship.dds" }
+	spriteType = { name = "GFX_unit_repair_ship_icon_medium_white"    textureFile = "gfx/interface/counters/ships_small/onmap_repair_support_ship.dds" }
 
 	############################################
 	### On-map-counters for SHIPS - Inverted ###
@@ -422,6 +424,8 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_sh_battleship_icon_medium_black"  textureFile = "gfx/interface/counters/ships_small/onmap_sh_battleship_inverted.dds" }
 	spriteType = { name = "GFX_unit_submarine_icon_medium_black"      textureFile = "gfx/interface/counters/ships_small/onmap_submarine_inverted.dds" }
 	spriteType = { name = "GFX_unit_convoy_icon_medium_black"         textureFile = "gfx/interface/counters/ships_small/onmap_transport_inverted.dds" }
+	spriteType = { name = "GFX_unit_support_ship_icon_medium_black"   textureFile = "gfx/interface/counters/ships_small/onmap_general_support_ship_inverted.dds" }
+	spriteType = { name = "GFX_unit_repair_ship_icon_medium_black"    textureFile = "gfx/interface/counters/ships_small/onmap_repair_support_ship_inverted.dds" }
 
 
 	#############################################################################

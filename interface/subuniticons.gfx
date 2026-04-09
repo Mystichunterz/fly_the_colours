@@ -281,8 +281,17 @@ spriteTypes = {
 	spriteType = {name = "GFX_unit_recon_icon_medium_white"                              textureFile = "gfx/interface/counters/divisions_small/mpu.unit.Support.Recon.Cavalry.Bn.map.dds"                 noOfFrames = 2 }
 	spriteType = {name = "GFX_unit_rocket_artillery_icon_medium_white"                   textureFile = "gfx/interface/counters/divisions_small/mpu.unit.Artillery.Rocket.Towed.Bn.map.dds"                noOfFrames = 2 }
 	spriteType = {name = "GFX_unit_signal_company_icon_medium_white"                     textureFile = "gfx/interface/counters/divisions_small/mpu.unit.Support.Signal.Bn.map.dds"                        noOfFrames = 2 }
+	spriteType = {name = "GFX_unit_irregular_infantry_icon_medium_white"                 textureFile = "gfx/interface/counters/divisions_small/mpu.unit.Infantry.Irregular.Bn.map.dds"                   noOfFrames = 2 }
+	spriteType = {name = "GFX_unit_camelry_icon_medium_white"                            textureFile = "gfx/interface/counters/divisions_small/mpu.unit.Mobile.Camelry.Bn.map.dds"                        noOfFrames = 2 }
+	spriteType = {name = "GFX_unit_light_flame_tank_icon_medium_white"                   textureFile = "gfx/interface/counters/divisions_small/mpu.unit.Armour.Flamethrower.Light.Bn.map.dds"             noOfFrames = 2 }
+	spriteType = {name = "GFX_unit_light_flamethrower_tank_icon_medium_white"            textureFile = "gfx/interface/counters/divisions_small/mpu.unit.Armour.Flamethrower.Light.Bn.map.dds"             noOfFrames = 2 }
+	spriteType = {name = "GFX_unit_medium_flame_tank_icon_medium_white"                  textureFile = "gfx/interface/counters/divisions_small/mpu.unit.Armour.Flamethrower.Medium.Bn.map.dds"            noOfFrames = 2 }
+	spriteType = {name = "GFX_unit_medium_flamethrower_tank_icon_medium_white"           textureFile = "gfx/interface/counters/divisions_small/mpu.unit.Armour.Flamethrower.Medium.Bn.map.dds"            noOfFrames = 2 }
+	spriteType = {name = "GFX_unit_heavy_flame_tank_icon_medium_white"                   textureFile = "gfx/interface/counters/divisions_small/mpu.unit.Armour.Flamethrower.Heavy.Bn.map.dds"             noOfFrames = 2 }
+	spriteType = {name = "GFX_unit_heavy_flamethrower_tank_icon_medium_white"            textureFile = "gfx/interface/counters/divisions_small/mpu.unit.Armour.Flamethrower.Heavy.Bn.map.dds"             noOfFrames = 2 }
+	spriteType = {name = "GFX_unit_marine_commando_icon_medium_white"                    textureFile = "gfx/interface/counters/divisions_small/mpu.unit.Infantry.Marine.Commando.Bn.map.dds"              noOfFrames = 2 }
 
-	
+
 	###########################################
 	### Large images for DIVISION TEMPLATES ###
 

@@ -453,10 +453,10 @@ guiTypes = {
 		containerWindowType = {
 			name = "equipment_select_model"
 			position = { x=538 y=40 }
-			size = { width=567 height=460 }
-			
+			size = { width=567 height=510 }
+
 			background = {
-				name = "Background"		
+				name = "Background"
 				spriteType ="GFX_tiled_window"
 				position = { x=-16 y=0 }
 			}
@@ -465,54 +465,79 @@ guiTypes = {
 				name = "border_container"
 				position = { x=5 y=13 }
 				size = { width = 524 height = 222 }
-				
+
 				background = {
 					name ="bg_tech_button"
-					spriteType = "GFX_division_3d_bg"	
+					spriteType = "GFX_division_3d_bg"
 					position = { x=0 y=0 }
 					size = { x=100%% y=100%%}
 				}
 			}
-			
+
 			iconType = {
 				name ="3d_view"
 				quadTextureSprite = "GFX_3d_view_placeholder"
 				position = { x= 12 y = 20 }
 			}
 
-				
+
 			buttonType = {
 				name = "back_button"
-				position = { x=395 y=412 }
-				size = { x=504 y=22 }
-				font = "hoi_16mbs"				
-				buttontext = "BACK"
+				position = { x=395 y=25 }
+				font = "hoi_16mbs"
+				buttontext = "CLOSE"
 				quadTextureSprite = "GFX_button_123x34"
 				clicksound = click_close
-			}		
+			}
+
+			containerWindowType = {
+				name = "best_match_window"
+				position = { x=382 y=204 }
+				size = { width = 123 height = 34 }
+				clipping = no
+
+				buttonType = {
+					name = "best_match_button"
+					position = { x=-11 y=-3 }
+					font = "hoi_16mbs"
+					quadTextureSprite = "GFX_generic_checkbox"
+					clicksound = click_default
+					pdx_tooltip = "USE_DEFAULT_MODEL_IN_EQUIPMENT_DESIGNER_TOOLTIP"
+				}
+
+				instantTextboxType = {
+					name = "best_match_text"
+					position = { x = 28 y = 6 }
+					font = "hoi_16mbs"
+					text = "USE_DEFAULT_MODEL_IN_EQUIPMENT_DESIGNER"
+					fixedsize = yes
+					format = left
+					alwaystransparent = yes
+				}
+			}
 
 			containerWindowType = {
 				name = "grid_container"
-				position = { x=5 y=235}	
-				size = { width=533 height=176 }
+				position = { x=5 y=235}
+				size = { width=533 height=260 }
 				verticalScrollbar = "right_vertical_slider"
 				scroll_wheel_factor = 42
 				smooth_scrolling = yes
-				
+
 				background = {
 					name = "Background"
 					spriteType ="GFX_tiled_window_transparent"
 				}
-				
-				
-				gridBoxType = { 
+
+
+				gridBoxType = {
 					name = "buttons_grid"
 					position = { x = 0 y = 0 }
-					size = { width = 490 height = 100%% }
-					slotsize = { width = 490 height = 42 }
-					max_slots_horizontal = 1
+					size = { width = 510 height = 100%% }
+					slotsize = { width = 255 height = 42 }
+					max_slots_horizontal = 2
 					format = "UPPER_LEFT"
-					
+
 				}
 			}
 		}

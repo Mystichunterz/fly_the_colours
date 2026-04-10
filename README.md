@@ -9,15 +9,43 @@
 
 ## 🎨 Features
 
-- **Restored MPU Division Icons**, **Army/Navy/Airforce Counters**, and **Map Base Icons**
-- New, custom UI buttons and mission icons with improved color clarity
-- Accessibility-oriented color adjustments (inspired by the *Color Blindness Mod*)
-- Completely new icons (e.g., Air Group, Research Facility)
-- Preserves the vanilla look & feel for newer players
-- Planned expansions:  
-  - Cleaner designer UIs  
-  - Improved strategic views  
-  - Full mod compatibility
+### Division & Unit Counters
+- **Restored MPU-style division icons** — 96+ unit types with large and small variants, covering all base game and DLC units (infantry, armor, artillery, paratroopers, marines, mountaineers, camelry, engineers, and more)
+- **On-map counter icons** — 62 custom small counters for battlefield readability
+- **Over 2,200 division template icons** — large and small preview icons for the division designer
+
+### Naval Overhaul
+- **Ship type icons** for all hull classes (battleships, battlecruisers, heavy/light cruisers, destroyers, submarines) across Mark I–IV variants
+- **22 on-map naval counters** including transports, support ships, and repair ships
+- **Navy management UI** — 106 overhauled elements covering task force backgrounds, fleet composition, mission buttons, and ship activity indicators
+
+### Air & Strategic Warfare
+- **54 strategic air mission icons** — air superiority, CAS, naval bombing, port strike, recon, strategic bombing, aggressiveness controls, wing status indicators, and more
+- Custom air base and wing management graphics
+
+### Equipment Designers
+- Overhauled backgrounds and UI layouts for the **ship**, **tank**, **plane**, and **division** designers
+- Cleaned up 3D model selector panels with proper toggle buttons and grid layouts
+
+### Map, HUD & Topbar
+- **23 map mode graphics** — selection buttons, allied plans, counters color mode, day/night, fog of war, and radar toggles
+- **40 topbar elements** — fuel and nuke indicators, speed controls, zoom, convoy display, date overlay, and a restyled music player
+- **16 tactical map icons** — straits, canals, fleet entry points, dig-in indicators, supply markers, rocket sites, and mega gun emplacements
+
+### Command Structure Icons
+- Custom **army, army group, navy, and air force** command icons with selected-state variants
+- Naval equipment role icons
+
+### Modifier & Text Icons
+- **574 inline text icons** covering every modifier category: combat stats, resources, economics, politics, research, and special combat conditions
+- Includes compatibility icons for popular submods (Kaiserreich, Road to 56, TWR, and others)
+
+### Localisation
+- Updated modifier icon text across **7 languages** (English, Spanish, German, French, Polish, Russian, Brazilian Portuguese)
+
+### Accessibility
+- Color adjustments inspired by the *Color Blindness Mod* for improved visual clarity
+- Preserves the vanilla look and feel while enhancing readability
 
 ---
 

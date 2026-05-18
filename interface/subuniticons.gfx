@@ -475,8 +475,15 @@ spriteTypes = {
 	#spriteType = { name = "GFX_unit_transport_icon_medium"        textureFile = "gfx/interface/navalcombat/ships/transport.dds"         noOfFrames = 2 } # Removed from Database
 	spriteType  = { name = "GFX_unit_convoy_1_icon_medium"         textureFile = "gfx/interface/navalcombat/ships/convoy.dds"            noOfFrames = 2 }
 	spriteType  = { name = "GFX_unit_battleship_5_icon_medium"     textureFile = "gfx/interface/navalcombat/ships/modern_battleship.dds" noOfFrames = 2 }
+	spriteType  = { name = "GFX_unit_battle_cruiser_5_icon_medium" textureFile = "gfx/interface/navalcombat/ships/modern_battleship.dds" noOfFrames = 2 }
 	spriteType  = { name = "GFX_unit_carrier_5_icon_medium"        textureFile = "gfx/interface/navalcombat/ships/modern_carrier.dds"    noOfFrames = 2 }
-	
+	spriteType  = { name = "GFX_unit_support_ship_icon_medium"     textureFile = "gfx/interface/navalcombat/ships/general_support_ship.dds"    noOfFrames = 2 }
+	spriteType  = { name = "GFX_unit_support_ship_1_icon_medium"   textureFile = "gfx/interface/navalcombat/ships/general_support_ship_I.dds"  noOfFrames = 2 }
+	spriteType  = { name = "GFX_unit_support_ship_2_icon_medium"   textureFile = "gfx/interface/navalcombat/ships/general_support_ship_II.dds" noOfFrames = 2 }
+	spriteType  = { name = "GFX_unit_repair_ship_icon_medium"      textureFile = "gfx/interface/navalcombat/ships/repair_support_ship.dds"     noOfFrames = 2 }
+	spriteType  = { name = "GFX_unit_repair_ship_1_icon_medium"    textureFile = "gfx/interface/navalcombat/ships/repair_support_ship_I.dds"   noOfFrames = 2 }
+	spriteType  = { name = "GFX_unit_repair_ship_2_icon_medium"    textureFile = "gfx/interface/navalcombat/ships/repair_support_ship_II.dds"  noOfFrames = 2 }
+
 	###############################
 	### RBM NATO DIVISION ICONS ###
 	

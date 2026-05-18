@@ -1,7 +1,7 @@
-version="1.2.0"
+version="1.3.0"
 tags={
 	"Graphics"
 }
 name="Fly the Colours"
 picture="thumbnail.png"
-supported_version="1.17.5.2"
+supported_version="1.18.0.0"

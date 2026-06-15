@@ -889,4 +889,10 @@ spriteType = {
 		texturefile = "gfx/interface/mapicons/on_map_supply_values_bg.dds"
 		noOfFrames = 1
 	}
+
+	spriteType = {
+		name = "GFX_onmap_unit_counter_empty"
+		noOfFrames = 3
+		texturefile = "gfx/interface/onmap_unit_counter_empty.dds"
+	}
 }

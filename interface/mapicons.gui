@@ -186,15 +186,19 @@ guiTypes = {
 		iconType ={
 			name ="general_portrait"
 			spriteType = "GFX_portrait_GER_oswald_lutz"
-			position = { x=36 y=3 }
+			position = { x=45 y=3 }	#RBM: vanilla x=36 on 66px counter; scaled+nudged for RBM 76px counter (over flag/count)
 			alwaystransparent = yes
 			scale = 0.10
 		}
 
 		# used to offset left aligned icons if hq_badge is shown
+		# RBM: vanilla -20 assumes the type icon's base is x=3; RBM moved "type" to x=-7
+		# on the taller (76x39) counter, so -20 flung the HQ type icon off the top-left.
+		# x=-13 lands the icon's left edge ~flush with the 18x27 hq_badge tab (at x=-20);
+		# y=8 drops it down onto the badge (icon base y=-5 sat above the tab's top at y=0).
 		positionType = {
 			name = "unit_counter_hq_x_offset"
-			position = { x = -20 y = 0 }
+			position = { x = -13 y = 8 }	#RBM
 		}
 
 		iconType = {

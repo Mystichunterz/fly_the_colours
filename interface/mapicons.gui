@@ -59,6 +59,14 @@ guiTypes = {
 			alwaystransparent = yes
 		}		
 
+		gridBoxType = {
+			name = "active_abilities"
+			position = { x=55 y=-9 }
+			slotsize = { width=25 height=25 }
+			max_slots_vertical = 1
+			format = "UPPER_LEFT"
+		}
+
 		# Division Icon
 		iconType ={
 			name ="type"
@@ -848,6 +856,15 @@ guiTypes = {
 				maxHeight = 20
 				alwaystransparent = yes
 				format = left
+			}
+
+			iconType = {
+				name = "dam_icon"
+				quadTextureSprite = "GFX_dam_icon_small"
+				position = { x=64 y=21 }
+				frame = 1
+				scale = 0.8
+				Orientation = "UPPER_LEFT"
 			}
 		}
 

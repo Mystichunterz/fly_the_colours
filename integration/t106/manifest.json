@@ -1,0 +1,83 @@
+{
+  "live_head": "e84640834bb0b6f71ef2f1a73673c4c45a16f02b",
+  "inherited_baseline_commit": "b2539b2b081b958e85fe67b59358fad819c074af",
+  "patch_sha256": "d617fa34e9c3e3fca07c3b2f6e63886001a1285a052e20202d9d75821a37c3a6",
+  "source_changes": [
+    {
+      "path": "interface/mapicons.gfx",
+      "inherited_live_bytes_sha256": "f2581c3b258974752b87bf290beb751258e7775e7a7202e4f53d56de33483fa4",
+      "inherited_git_bytes_sha256": "cb59f4aa77d65fe6854702b84a6b6bb2af581e86f1cb49ba26a93a5dc5c06bef",
+      "candidate_bytes_sha256": "76a85d7051ad6aa02086e2ce0de280ceff8c552cd177363fccdaaa1eb2eea7db",
+      "candidate_git_bytes_sha256": "622a04f9be8b1eb6a9ae23a26e46015b24c01efb5a3bbb5c555668c2c240ab5f",
+      "candidate_git_blob": "b24e71859b54475edd84cea7d20b97e213f67389",
+      "bytes": 25745
+    },
+    {
+      "path": "interface/mapicons.gui",
+      "inherited_live_bytes_sha256": "d1bee5ec19a931bbd50add5c99061b507fa37422572f1a92ccef54bdd2a44d88",
+      "inherited_git_bytes_sha256": "7424af32b6a288c023ac0a7edaa42260282b9c94dc438ca884e44b03fa9fc178",
+      "candidate_bytes_sha256": "fe3d7e5647abbde2c89ac515bcf624532fbd3bdc5d449dd0bf011f2693e40b45",
+      "candidate_git_bytes_sha256": "ce3172962615cf84e2c0231461dc479bb3dfd9d23a0565c1ad85e32603ae98d2",
+      "candidate_git_blob": "6597df0867bae495f51dbedd50597d2d4f1bef6b",
+      "bytes": 65133
+    },
+    {
+      "path": "interface/subuniticons.gfx",
+      "inherited_live_bytes_sha256": "c9de9b15c3bae2cf01ac638596f352f08ab664ed71a23d74e97d37097f4dd112",
+      "inherited_git_bytes_sha256": "4cb94679675c2c5e7d12d7b41a8e979fd332d355eeac9efd1e5d5d7bf7097f0c",
+      "candidate_bytes_sha256": "9bad33d3f1fe73802cedf4037e9d7c03cb695032b6d075c1b15cc6c6e14797e5",
+      "candidate_git_bytes_sha256": "aa242ae03e0f86896e3914d734d0dd431f864af04319b1c9df858307b83b96a9",
+      "candidate_git_blob": "0e9612d78710904a8b5c9853c8da5c370f94c4f9",
+      "bytes": 446216
+    },
+    {
+      "path": "interface/unitview.gui",
+      "inherited_live_bytes_sha256": "c69f10b88b80743f63351c87a4c9e33e9f5d0bbd16b55b578a944b8868144fac",
+      "inherited_git_bytes_sha256": "7585f53d330e944b81b843020a700fd0eeef144e5d1df28ba02d7624ec6500c7",
+      "candidate_bytes_sha256": "a241ee85c83b9bd1e95ca744b5ef560160d21957a61acd34200e6be407021a43",
+      "candidate_git_bytes_sha256": "eceaec0504ae233cbbcb66f23d12bb2c5d644d3db372c9f73fde84cd809e51d8",
+      "candidate_git_blob": "cb9d4f3b05a17814bff2d8708350a294f27638b6",
+      "bytes": 87144
+    }
+  ],
+  "external_validators": [
+    {
+      "path": "C:\\Users\\Calvin\\03_Personal_Files\\07_Projects\\hoi4-italy-graphics-t99\\integration\\validate_mod.py",
+      "sha256": "5ee9f94b1e9f29ab993680f2ca82f6589f8e0ff1fbd97c4d2ed2c9e686ac4745",
+      "command": "python -B <validator> interface --json",
+      "result": "19 script files; zero findings"
+    },
+    {
+      "path": "C:\\Users\\Calvin\\03_Personal_Files\\07_Projects\\hoi4-mod-updates\\_test_gui_parity.ps1",
+      "sha256": "44507a3e41416b14d8b76c14815337c6f747c539b8ef4805540634278c666d27",
+      "adaptation": "Only the hard-coded MOD root replaced with candidate; source unchanged",
+      "adapter_sha256": "62be17fba61129d8cbb79421cd53eb9f6504ed0453e3bfb60dd0800992070e14",
+      "result": [
+        "PASS: mod interface/mapicons.gui is a superset of all 258 vanilla 1.19 names",
+        "PASS: mod interface/unitview.gui is a superset of all 330 vanilla 1.19 names"
+      ]
+    }
+  ],
+  "tests": {
+    "command": "python -B tools/test_t106_graphics.py",
+    "tests": 16,
+    "result": "PASS",
+    "old_source_command": "python -B tools/test_t106_graphics.py --source-ref b2539b2b081b958e85fe67b59358fad819c074af",
+    "old_source_result": "Expected FAIL: 22 failing assertions/subtests covering scoped defects"
+  },
+  "runtime": "NOT RUN",
+  "artifact_sha256": {
+    "integration/t106/.gitattributes": "4bf64cd7ee81cc630fc98fde2a3fb6da5da28c1c8fa863a54c6f90500c109436",
+    "integration/t106/evidence.json": "968d56c51efd710c7c1fec591de7ad8d5145bb232316e307660100c5177c40d4",
+    "integration/t106/gui-parity.log": "f2898397afe21608e22e64901554402f292007db9380331fdd19f81ef60f71b4",
+    "integration/t106/implementation.patch": "d617fa34e9c3e3fca07c3b2f6e63886001a1285a052e20202d9d75821a37c3a6",
+    "integration/t106/inherited-mapicons.patch": "2dfb50086bb6b6634b840b977363ba0609b5e901196be8461c29ab025808827f",
+    "integration/t106/live-before.json": "5745547aa3a422e069c0abfd5d04d93bb1f021838038ce0666a8eb449e6540dc",
+    "integration/t106/preservation.json": "7f9f70313cb235135a810d9877c7e8e3584082e23b6632460e60da7a46cb3a41",
+    "integration/t106/report.md": "817f5fe8e1989db6760fe06901bee3db8338e029ac6dcfb1ca4e4bc212b90f92",
+    "integration/t106/tests-after.log": "6e5da58b1897ff0e264626a1bfd845d8c1e6c7fb1532815ea487b32e2f58387a",
+    "integration/t106/tests-before.log": "9bb5080b9cda90445d3ae55c7223772be3b9135dcf25a0aedd347622949aef9d",
+    "integration/t106/validator-interface.json": "34d3afe62a357dccf909accd391234df80b227040e51ad54028d12beaba17fc1",
+    "tools/test_t106_graphics.py": "eeae5d940e9f6896ed762c2ac969e121fa01681b9f77c1fdeedf9672a315ce40"
+  }
+}

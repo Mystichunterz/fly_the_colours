@@ -2558,6 +2558,8 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_heavy_tank_jungle_support_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/unit_heavy_tank_jungle_support_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_heavy_tank_jungle_support_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_heavy_tank_jungle_support_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_hq_air_liaison_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/support_unit_hq_air_liason_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_hq_armored_car_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_armored_car_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_hq_armored_car_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/mpu.unit.Mobile.Cavalry.Armoured.Bn.map.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_hq_engineer_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_engineer_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_hq_engineer_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/mpu.unit.Support.Engineer.Bn.map.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_hq_field_hospital_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/support_unit_field_hospital_icon.dds" noOfFrames = 2 }

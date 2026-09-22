@@ -1,0 +1,2 @@
+# Preserve exact diff receipts, including context whitespace, without normalizing them.
+*.patch -text -diff

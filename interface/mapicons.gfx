@@ -288,7 +288,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_onmap_unit_counter_ideology"
 		texturefile = "gfx/interface/onmap_unit_counter_ideology.dds"
-		noOfFrames = 4
+		noOfFrames = 3
 		alwaystransparent = yes
 	}
 
@@ -409,13 +409,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_mapicon_naval_base_large"
 		texturefile = "gfx/interface/mapicons/mapicon_building_navalbase_large.dds"
-		noOfFrames = 10
+		noOfFrames = 11
 	}
 	
 	spriteType = {
 		name = "GFX_mapicon_naval_base"
 		texturefile = "gfx/interface/mapicons/mapicon_building_navalbase.dds"
-		noOfFrames = 10
+		noOfFrames = 11
 	}
 
 	spriteType = {

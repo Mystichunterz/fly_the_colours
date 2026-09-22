@@ -1,0 +1,131 @@
+diff --git a/interface/mapicons.gfx b/interface/mapicons.gfx
+index 14ae7ec..b24e718 100644
+--- a/interface/mapicons.gfx
++++ b/interface/mapicons.gfx
+@@ -288,7 +288,7 @@ spriteTypes = {
+ 	spriteType = {
+ 		name = "GFX_onmap_unit_counter_ideology"
+ 		texturefile = "gfx/interface/onmap_unit_counter_ideology.dds"
+-		noOfFrames = 4
++		noOfFrames = 3
+ 		alwaystransparent = yes
+ 	}
+ 
+@@ -409,13 +409,13 @@ spriteTypes = {
+ 	spriteType = {
+ 		name = "GFX_mapicon_naval_base_large"
+ 		texturefile = "gfx/interface/mapicons/mapicon_building_navalbase_large.dds"
+-		noOfFrames = 10
++		noOfFrames = 11
+ 	}
+ 	
+ 	spriteType = {
+ 		name = "GFX_mapicon_naval_base"
+ 		texturefile = "gfx/interface/mapicons/mapicon_building_navalbase.dds"
+-		noOfFrames = 10
++		noOfFrames = 11
+ 	}
+ 
+ 	spriteType = {
+diff --git a/interface/mapicons.gui b/interface/mapicons.gui
+index 1f1a7a8..6597df0 100644
+--- a/interface/mapicons.gui
++++ b/interface/mapicons.gui
+@@ -59,6 +59,14 @@ guiTypes = {
+ 			alwaystransparent = yes
+ 		}		
+ 
++		gridBoxType = {
++			name = "active_abilities"
++			position = { x=55 y=-9 }
++			slotsize = { width=25 height=25 }
++			max_slots_vertical = 1
++			format = "UPPER_LEFT"
++		}
++
+ 		# Division Icon
+ 		iconType ={
+ 			name ="type"
+@@ -849,6 +857,15 @@ guiTypes = {
+ 				alwaystransparent = yes
+ 				format = left
+ 			}
++
++			iconType = {
++				name = "dam_icon"
++				quadTextureSprite = "GFX_dam_icon_small"
++				position = { x=64 y=21 }
++				frame = 1
++				scale = 0.8
++				Orientation = "UPPER_LEFT"
++			}
+ 		}
+ 
+ 		containerWindowType = {
+diff --git a/interface/subuniticons.gfx b/interface/subuniticons.gfx
+index 20020da..0e9612d 100644
+--- a/interface/subuniticons.gfx
++++ b/interface/subuniticons.gfx
+@@ -2558,6 +2558,8 @@ spriteTypes = {
+ 	spriteType = { name = "GFX_unit_heavy_tank_jungle_support_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/unit_heavy_tank_jungle_support_icon.dds" noOfFrames = 2 }
+ 	spriteType = { name = "GFX_unit_heavy_tank_jungle_support_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_heavy_tank_jungle_support_icon.dds" noOfFrames = 2 }
+ 	spriteType = { name = "GFX_unit_hq_air_liaison_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/support_unit_hq_air_liason_icon.dds" noOfFrames = 2 }
++	spriteType = { name = "GFX_unit_hq_armored_car_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_armored_car_icon.dds" noOfFrames = 2 }
++	spriteType = { name = "GFX_unit_hq_armored_car_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/mpu.unit.Mobile.Cavalry.Armoured.Bn.map.dds" noOfFrames = 2 }
+ 	spriteType = { name = "GFX_unit_hq_engineer_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_engineer_icon.dds" noOfFrames = 2 }
+ 	spriteType = { name = "GFX_unit_hq_engineer_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/mpu.unit.Support.Engineer.Bn.map.dds" noOfFrames = 2}
+ 	spriteType = { name = "GFX_unit_hq_field_hospital_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/support_unit_field_hospital_icon.dds" noOfFrames = 2 }
+diff --git a/interface/unitview.gui b/interface/unitview.gui
+index 98b9db5..cb9d4f3 100644
+--- a/interface/unitview.gui
++++ b/interface/unitview.gui
+@@ -473,6 +473,20 @@ guiTypes = {
+ 			scale = 0.33
+ 		}
+ 
++		iconType = {
++			name = "pending_leader_icon"
++			position = {x=9 y=32}
++			quadTextureSprite ="GFX_leader_unknown"
++			scale = 0.15
++		}
++
++		iconType = {
++			name = "leader_coming"
++			spriteType = "GFX_opinion_arrow_right"
++			position = { x=22 y=32 }
++			alwaystransparent = yes
++		}
++
+ 		iconType = {
+ 			name = "leader_portrait_frame"
+ 			position = {x=5 y=27}
+@@ -525,6 +539,12 @@ guiTypes = {
+ 			alwaystransparent = yes
+ 		}
+ 
++		# Applied to "leader_enroute" while "pending_leader_icon" is shown so the icons stack vertically
++		positionType = {
++			name = "pending_leader_shown_offset"
++			position = { x=0 y=31 }
++		}
++
+ 		iconType = {
+ 			name = "unit_leader_tutorial_glow"
+ 			position = {x=4 y=28}
+@@ -1163,6 +1183,15 @@ guiTypes = {
+ 								format = right
+ 								alwaystransparent = yes
+ 							}
++
++							instantTextboxType = {
++								name = "deploy_button_no_commander_message"
++								position = { x = 92 y = 8 }
++								font = "hoi_16mbs"
++								maxWidth = 220
++								format = center
++								alwaystransparent = yes
++							}
+ 						}
+ 
+ 						expandButton = {

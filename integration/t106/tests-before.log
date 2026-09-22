@@ -1,0 +1,286 @@
+test_01_armored_hq_exact_sprites (__main__.GraphicsTests.test_01_armored_hq_exact_sprites) ...
+  test_01_armored_hq_exact_sprites (__main__.GraphicsTests.test_01_armored_hq_exact_sprites) (sprite='GFX_unit_hq_armored_car_icon_medium') ... FAIL
+  test_01_armored_hq_exact_sprites (__main__.GraphicsTests.test_01_armored_hq_exact_sprites) (sprite='GFX_unit_hq_armored_car_icon_medium_white') ... FAIL
+test_02_armored_hq_atlas_geometry (__main__.GraphicsTests.test_02_armored_hq_atlas_geometry) ...
+  test_02_armored_hq_atlas_geometry (__main__.GraphicsTests.test_02_armored_hq_atlas_geometry) (sprite='GFX_unit_hq_armored_car_icon_medium') ... FAIL
+  test_02_armored_hq_atlas_geometry (__main__.GraphicsTests.test_02_armored_hq_atlas_geometry) (sprite='GFX_unit_hq_armored_car_icon_medium_white') ... FAIL
+test_03_map_gui_nodes (__main__.GraphicsTests.test_03_map_gui_nodes) ...
+  test_03_map_gui_nodes (__main__.GraphicsTests.test_03_map_gui_nodes) (node='unit_counter/active_abilities') ... FAIL
+  test_03_map_gui_nodes (__main__.GraphicsTests.test_03_map_gui_nodes) (node='construction_info_mapicon/construction_info_window/dam_icon') ... FAIL
+test_04_unit_gui_nodes (__main__.GraphicsTests.test_04_unit_gui_nodes) ...
+  test_04_unit_gui_nodes (__main__.GraphicsTests.test_04_unit_gui_nodes) (node='army_badge_view/pending_leader_icon') ... FAIL
+  test_04_unit_gui_nodes (__main__.GraphicsTests.test_04_unit_gui_nodes) (node='army_badge_view/leader_coming') ... FAIL
+  test_04_unit_gui_nodes (__main__.GraphicsTests.test_04_unit_gui_nodes) (node='army_badge_view/pending_leader_shown_offset') ... FAIL
+  test_04_unit_gui_nodes (__main__.GraphicsTests.test_04_unit_gui_nodes) (node='army_division_list_view/content_window/hq_window/empty_slot/deploy_dropdown/deploy_button_container_window/deploy_button_no_commander_message') ... FAIL
+test_05_naval_frames_match_vanilla (__main__.GraphicsTests.test_05_naval_frames_match_vanilla) ...
+  test_05_naval_frames_match_vanilla (__main__.GraphicsTests.test_05_naval_frames_match_vanilla) (sprite='GFX_mapicon_naval_base') ... FAIL
+  test_05_naval_frames_match_vanilla (__main__.GraphicsTests.test_05_naval_frames_match_vanilla) (sprite='GFX_mapicon_naval_base_large') ... FAIL
+test_06_ideology_three_tile_atlas (__main__.GraphicsTests.test_06_ideology_three_tile_atlas) ... FAIL
+test_07_unrelated_sprite_mappings_preserved (__main__.GraphicsTests.test_07_unrelated_sprite_mappings_preserved) ... ok
+test_08_unrelated_gui_layout_preserved (__main__.GraphicsTests.test_08_unrelated_gui_layout_preserved) ... ok
+test_09_inherited_active_ability_edit (__main__.GraphicsTests.test_09_inherited_active_ability_edit) ... ok
+test_10_motorized_hq_mapping_and_offsets_preserved (__main__.GraphicsTests.test_10_motorized_hq_mapping_and_offsets_preserved) ... ok
+test_11_provider_inputs_still_pinned (__main__.GraphicsTests.test_11_provider_inputs_still_pinned) ... ok
+test_12_new_gui_gfx_references_resolve (__main__.GraphicsTests.test_12_new_gui_gfx_references_resolve) ...
+  test_12_new_gui_gfx_references_resolve (__main__.GraphicsTests.test_12_new_gui_gfx_references_resolve) (node='unit_counter/active_abilities') ... FAIL
+  test_12_new_gui_gfx_references_resolve (__main__.GraphicsTests.test_12_new_gui_gfx_references_resolve) (node='construction_info_mapicon/construction_info_window/dam_icon') ... FAIL
+  test_12_new_gui_gfx_references_resolve (__main__.GraphicsTests.test_12_new_gui_gfx_references_resolve) (node='army_badge_view/pending_leader_icon') ... FAIL
+  test_12_new_gui_gfx_references_resolve (__main__.GraphicsTests.test_12_new_gui_gfx_references_resolve) (node='army_badge_view/leader_coming') ... FAIL
+  test_12_new_gui_gfx_references_resolve (__main__.GraphicsTests.test_12_new_gui_gfx_references_resolve) (node='army_badge_view/pending_leader_shown_offset') ... FAIL
+  test_12_new_gui_gfx_references_resolve (__main__.GraphicsTests.test_12_new_gui_gfx_references_resolve) (node='army_division_list_view/content_window/hq_window/empty_slot/deploy_dropdown/deploy_button_container_window/deploy_button_no_commander_message') ... FAIL
+test_13_existing_textures_unchanged (__main__.GraphicsTests.test_13_existing_textures_unchanged) ... ok
+test_14_all_vanilla_named_gui_paths_covered (__main__.GraphicsTests.test_14_all_vanilla_named_gui_paths_covered) ... FAIL
+test_15_effective_provider_inventory_and_unique_new_sprites (__main__.GraphicsTests.test_15_effective_provider_inventory_and_unique_new_sprites) ...
+  test_15_effective_provider_inventory_and_unique_new_sprites (__main__.GraphicsTests.test_15_effective_provider_inventory_and_unique_new_sprites) (sprite='GFX_unit_hq_armored_car_icon_medium') ... FAIL
+  test_15_effective_provider_inventory_and_unique_new_sprites (__main__.GraphicsTests.test_15_effective_provider_inventory_and_unique_new_sprites) (sprite='GFX_unit_hq_armored_car_icon_medium_white') ... FAIL
+test_16_decoded_alpha_geometry (__main__.GraphicsTests.test_16_decoded_alpha_geometry) ... ok
+
+======================================================================
+FAIL: test_01_armored_hq_exact_sprites (__main__.GraphicsTests.test_01_armored_hq_exact_sprites) (sprite='GFX_unit_hq_armored_car_icon_medium')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 206, in test_01_armored_hq_exact_sprites
+    node = one(self.current[FILES[0]], name)
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 120, in one
+    raise AssertionError(f'{path}: expected one node, got {len(matches)}')
+AssertionError: GFX_unit_hq_armored_car_icon_medium: expected one node, got 0
+
+======================================================================
+FAIL: test_01_armored_hq_exact_sprites (__main__.GraphicsTests.test_01_armored_hq_exact_sprites) (sprite='GFX_unit_hq_armored_car_icon_medium_white')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 206, in test_01_armored_hq_exact_sprites
+    node = one(self.current[FILES[0]], name)
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 120, in one
+    raise AssertionError(f'{path}: expected one node, got {len(matches)}')
+AssertionError: GFX_unit_hq_armored_car_icon_medium_white: expected one node, got 0
+
+======================================================================
+FAIL: test_02_armored_hq_atlas_geometry (__main__.GraphicsTests.test_02_armored_hq_atlas_geometry) (sprite='GFX_unit_hq_armored_car_icon_medium')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 214, in test_02_armored_hq_atlas_geometry
+    sprite = props(one(self.current[FILES[0]], name))
+                   ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 120, in one
+    raise AssertionError(f'{path}: expected one node, got {len(matches)}')
+AssertionError: GFX_unit_hq_armored_car_icon_medium: expected one node, got 0
+
+======================================================================
+FAIL: test_02_armored_hq_atlas_geometry (__main__.GraphicsTests.test_02_armored_hq_atlas_geometry) (sprite='GFX_unit_hq_armored_car_icon_medium_white')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 214, in test_02_armored_hq_atlas_geometry
+    sprite = props(one(self.current[FILES[0]], name))
+                   ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 120, in one
+    raise AssertionError(f'{path}: expected one node, got {len(matches)}')
+AssertionError: GFX_unit_hq_armored_car_icon_medium_white: expected one node, got 0
+
+======================================================================
+FAIL: test_03_map_gui_nodes (__main__.GraphicsTests.test_03_map_gui_nodes) (node='unit_counter/active_abilities')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 200, in assert_nodes
+    self.assertEqual(one(self.current[path], name), one(self.vanilla[path], name))
+                     ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 120, in one
+    raise AssertionError(f'{path}: expected one node, got {len(matches)}')
+AssertionError: unit_counter/active_abilities: expected one node, got 0
+
+======================================================================
+FAIL: test_03_map_gui_nodes (__main__.GraphicsTests.test_03_map_gui_nodes) (node='construction_info_mapicon/construction_info_window/dam_icon')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 200, in assert_nodes
+    self.assertEqual(one(self.current[path], name), one(self.vanilla[path], name))
+                     ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 120, in one
+    raise AssertionError(f'{path}: expected one node, got {len(matches)}')
+AssertionError: construction_info_mapicon/construction_info_window/dam_icon: expected one node, got 0
+
+======================================================================
+FAIL: test_04_unit_gui_nodes (__main__.GraphicsTests.test_04_unit_gui_nodes) (node='army_badge_view/pending_leader_icon')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 200, in assert_nodes
+    self.assertEqual(one(self.current[path], name), one(self.vanilla[path], name))
+                     ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 120, in one
+    raise AssertionError(f'{path}: expected one node, got {len(matches)}')
+AssertionError: army_badge_view/pending_leader_icon: expected one node, got 0
+
+======================================================================
+FAIL: test_04_unit_gui_nodes (__main__.GraphicsTests.test_04_unit_gui_nodes) (node='army_badge_view/leader_coming')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 200, in assert_nodes
+    self.assertEqual(one(self.current[path], name), one(self.vanilla[path], name))
+                     ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 120, in one
+    raise AssertionError(f'{path}: expected one node, got {len(matches)}')
+AssertionError: army_badge_view/leader_coming: expected one node, got 0
+
+======================================================================
+FAIL: test_04_unit_gui_nodes (__main__.GraphicsTests.test_04_unit_gui_nodes) (node='army_badge_view/pending_leader_shown_offset')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 200, in assert_nodes
+    self.assertEqual(one(self.current[path], name), one(self.vanilla[path], name))
+                     ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 120, in one
+    raise AssertionError(f'{path}: expected one node, got {len(matches)}')
+AssertionError: army_badge_view/pending_leader_shown_offset: expected one node, got 0
+
+======================================================================
+FAIL: test_04_unit_gui_nodes (__main__.GraphicsTests.test_04_unit_gui_nodes) (node='army_division_list_view/content_window/hq_window/empty_slot/deploy_dropdown/deploy_button_container_window/deploy_button_no_commander_message')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 200, in assert_nodes
+    self.assertEqual(one(self.current[path], name), one(self.vanilla[path], name))
+                     ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 120, in one
+    raise AssertionError(f'{path}: expected one node, got {len(matches)}')
+AssertionError: army_division_list_view/content_window/hq_window/empty_slot/deploy_dropdown/deploy_button_container_window/deploy_button_no_commander_message: expected one node, got 0
+
+======================================================================
+FAIL: test_05_naval_frames_match_vanilla (__main__.GraphicsTests.test_05_naval_frames_match_vanilla) (sprite='GFX_mapicon_naval_base')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 236, in test_05_naval_frames_match_vanilla
+    self.assertEqual(current['noofframes'], '11')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '10' != '11'
+- 10
++ 11
+
+
+======================================================================
+FAIL: test_05_naval_frames_match_vanilla (__main__.GraphicsTests.test_05_naval_frames_match_vanilla) (sprite='GFX_mapicon_naval_base_large')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 236, in test_05_naval_frames_match_vanilla
+    self.assertEqual(current['noofframes'], '11')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '10' != '11'
+- 10
++ 11
+
+
+======================================================================
+FAIL: test_06_ideology_three_tile_atlas (__main__.GraphicsTests.test_06_ideology_three_tile_atlas)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 245, in test_06_ideology_three_tile_atlas
+    self.assertEqual(sprite['noofframes'], '3')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '4' != '3'
+- 4
++ 3
+
+
+======================================================================
+FAIL: test_12_new_gui_gfx_references_resolve (__main__.GraphicsTests.test_12_new_gui_gfx_references_resolve) (node='unit_counter/active_abilities')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 314, in test_12_new_gui_gfx_references_resolve
+    node = one(self.current[path], name)
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 120, in one
+    raise AssertionError(f'{path}: expected one node, got {len(matches)}')
+AssertionError: unit_counter/active_abilities: expected one node, got 0
+
+======================================================================
+FAIL: test_12_new_gui_gfx_references_resolve (__main__.GraphicsTests.test_12_new_gui_gfx_references_resolve) (node='construction_info_mapicon/construction_info_window/dam_icon')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 314, in test_12_new_gui_gfx_references_resolve
+    node = one(self.current[path], name)
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 120, in one
+    raise AssertionError(f'{path}: expected one node, got {len(matches)}')
+AssertionError: construction_info_mapicon/construction_info_window/dam_icon: expected one node, got 0
+
+======================================================================
+FAIL: test_12_new_gui_gfx_references_resolve (__main__.GraphicsTests.test_12_new_gui_gfx_references_resolve) (node='army_badge_view/pending_leader_icon')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 314, in test_12_new_gui_gfx_references_resolve
+    node = one(self.current[path], name)
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 120, in one
+    raise AssertionError(f'{path}: expected one node, got {len(matches)}')
+AssertionError: army_badge_view/pending_leader_icon: expected one node, got 0
+
+======================================================================
+FAIL: test_12_new_gui_gfx_references_resolve (__main__.GraphicsTests.test_12_new_gui_gfx_references_resolve) (node='army_badge_view/leader_coming')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 314, in test_12_new_gui_gfx_references_resolve
+    node = one(self.current[path], name)
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 120, in one
+    raise AssertionError(f'{path}: expected one node, got {len(matches)}')
+AssertionError: army_badge_view/leader_coming: expected one node, got 0
+
+======================================================================
+FAIL: test_12_new_gui_gfx_references_resolve (__main__.GraphicsTests.test_12_new_gui_gfx_references_resolve) (node='army_badge_view/pending_leader_shown_offset')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 314, in test_12_new_gui_gfx_references_resolve
+    node = one(self.current[path], name)
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 120, in one
+    raise AssertionError(f'{path}: expected one node, got {len(matches)}')
+AssertionError: army_badge_view/pending_leader_shown_offset: expected one node, got 0
+
+======================================================================
+FAIL: test_12_new_gui_gfx_references_resolve (__main__.GraphicsTests.test_12_new_gui_gfx_references_resolve) (node='army_division_list_view/content_window/hq_window/empty_slot/deploy_dropdown/deploy_button_container_window/deploy_button_no_commander_message')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 314, in test_12_new_gui_gfx_references_resolve
+    node = one(self.current[path], name)
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 120, in one
+    raise AssertionError(f'{path}: expected one node, got {len(matches)}')
+AssertionError: army_division_list_view/content_window/hq_window/empty_slot/deploy_dropdown/deploy_button_container_window/deploy_button_no_commander_message: expected one node, got 0
+
+======================================================================
+FAIL: test_14_all_vanilla_named_gui_paths_covered (__main__.GraphicsTests.test_14_all_vanilla_named_gui_paths_covered)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 340, in test_14_all_vanilla_named_gui_paths_covered
+    self.assertFalse(missing, f'{rel}: {sorted(missing)}')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'construction_info_mapicon/construction_info_window/dam_icon', 'unit_counter/active_abilities'} is not false : interface/mapicons.gui: ['construction_info_mapicon/construction_info_window/dam_icon', 'unit_counter/active_abilities']
+
+======================================================================
+FAIL: test_15_effective_provider_inventory_and_unique_new_sprites (__main__.GraphicsTests.test_15_effective_provider_inventory_and_unique_new_sprites) (sprite='GFX_unit_hq_armored_car_icon_medium')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 368, in test_15_effective_provider_inventory_and_unique_new_sprites
+    self.assertEqual(found[ref], [(FTC, FILES[0])])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [] != [('mod/fly_the_colours.mod', 'interface/subuniticons.gfx')]
+
+Second list contains 1 additional elements.
+First extra element 0:
+('mod/fly_the_colours.mod', 'interface/subuniticons.gfx')
+
+- []
++ [('mod/fly_the_colours.mod', 'interface/subuniticons.gfx')]
+
+======================================================================
+FAIL: test_15_effective_provider_inventory_and_unique_new_sprites (__main__.GraphicsTests.test_15_effective_provider_inventory_and_unique_new_sprites) (sprite='GFX_unit_hq_armored_car_icon_medium_white')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Calvin\03_Personal_Files\07_Projects\fly-the-colours-t106\tools\test_t106_graphics.py", line 368, in test_15_effective_provider_inventory_and_unique_new_sprites
+    self.assertEqual(found[ref], [(FTC, FILES[0])])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [] != [('mod/fly_the_colours.mod', 'interface/subuniticons.gfx')]
+
+Second list contains 1 additional elements.
+First extra element 0:
+('mod/fly_the_colours.mod', 'interface/subuniticons.gfx')
+
+- []
++ [('mod/fly_the_colours.mod', 'interface/subuniticons.gfx')]
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.763s
+
+FAILED (failures=22)

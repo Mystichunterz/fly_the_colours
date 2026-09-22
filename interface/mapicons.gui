@@ -59,15 +59,6 @@ guiTypes = {
 			alwaystransparent = yes
 		}		
 
-		iconType = {
-			name = "active_ability"
-			spriteType = "GFX_onmap_unit_counter_active_ability"
-			position = { x=32 y=-11 }
-			alwaystransparent = no
-			orientation = center
-			scale = 0.8
-		}
-
 		# Division Icon
 		iconType ={
 			name ="type"
@@ -211,6 +202,20 @@ guiTypes = {
 			name = "leader_enroute"
 			spriteType = "GFX_leader_en_route"
 			position = { x=-20 y=0 }
+		}
+	}
+
+	# 1.19.2 moved the active-ability overlay into this engine-managed container;
+	# without it the engine cannot toggle the icon and it renders on every counter.
+	containerWindowType = {
+		name = "active_ability_item"
+		size = { width = 20 height = 20 }
+
+		iconType = {
+			name = "active_ability"
+			spriteType = "GFX_onmap_unit_counter_active_ability"
+			orientation = center
+			scale = 0.8
 		}
 	}
 

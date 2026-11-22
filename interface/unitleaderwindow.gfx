@@ -866,6 +866,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_trait_CHI_watched_officer"
+		texturefile = "gfx/interface/traits/personal/trait_SOV_cowed_by_stalin_army.dds"
+	}
+
+	spriteType = {
 		name = "GFX_parch_bg_adjustable_frame"
 		texturefile = "gfx/interface/parch_bg_frame.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"

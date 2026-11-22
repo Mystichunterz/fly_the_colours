@@ -543,6 +543,46 @@ army_group = {
 fleet = {
 	gfx = GFX_theatre_task_force_shield
 
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
 	icon = { }
 	icon = { }
 	icon = { }
@@ -808,6 +848,46 @@ fleet = {
 
 task_force = {
 	gfx = GFX_theatre_task_force_shield
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
+	icon = { available = { always = no } }
 	icon = { }
 	icon = { }
 	icon = { }

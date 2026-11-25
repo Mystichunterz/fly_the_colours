@@ -1,4 +1,6 @@
-# Credits – RBM's GFX Overhaul
+# Credits – Fly the Colours (personal-use fork of RBM's GFX Overhaul)
+
+Fly the Colours is a personal-use fork of [RBM's GFX Overhaul](https://github.com/Rossebma/RBM_MPU), maintained for *Hearts of Iron IV* 1.20. The credits and licence terms below are the original mod's and are kept unchanged.
 
 This mod contains original content by RBM as well as assets created by other modders and artists.  
 All third-party content is used in accordance with the creators' licenses or with permission.  

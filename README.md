@@ -1,4 +1,6 @@
-# RBM's GFX Overhaul for Hearts of Iron IV
+# Fly the Colours – a personal-use fork of RBM's GFX Overhaul for Hearts of Iron IV
+
+**Fly the Colours** is a personal-use fork of [RBM's GFX Overhaul](https://github.com/Rossebma/RBM_MPU), maintained for *Hearts of Iron IV* 1.20. It is not the original mod: the original is RBM's work, and its credits and licence terms (see **License** below and [CREDITS.md](CREDITS.md)) are kept unchanged here. The overview that follows is carried over from the original mod's README.
 
 **RBM’s GFX Overhaul** is a comprehensive graphical overhaul for *Hearts of Iron IV*, restoring, modernizing, and extending classic MPU-style assets — with the goal of improving readability, accessibility, and visual clarity across the UI and map.
 
@@ -72,7 +74,8 @@
 
 ## 🌐 Links
 
-- **Steam Workshop**: [RBM's GFX Overhaul](https://steamcommunity.com/sharedfiles/itemedittext/?id=3496134789)  
+- **Upstream repository (original mod)**: [Rossebma/RBM_MPU](https://github.com/Rossebma/RBM_MPU)  
+- **Steam Workshop (original mod's page)**: [RBM's GFX Overhaul](https://steamcommunity.com/sharedfiles/itemedittext/?id=3496134789)  
 - **GitHub Issues**: Use the *Issues* tab here on GitHub for bug reports or suggestions.
 
 ---
